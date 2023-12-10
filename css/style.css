@@ -1,0 +1,141 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 1%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Responsive Design using Media Queries */
+@media only screen and (max-width: 600px) {
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: calc(33.33% - 10px); /* Adjust the width as needed */
+    margin-bottom: 10px;
+    border: 2px solid #000; /* Add a black border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.gif-banner {
+    margin: 0 auto; /* Center the banner horizontally */
+}
+
+ul {
+    list-style-type: disc; /* Change to the desired bullet style, e.g., disc, circle, square */
+    margin-bottom: 10px; /* Adjust the margin-bottom as needed for spacing between bullets */
+}
+
+li {
+    margin-bottom: 8px; /* Adjust the margin-bottom to control the space between bullets */
+}
+
+.image-gallery2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image-gallery2 img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #000;
+    border-radius: 5px;
+}
